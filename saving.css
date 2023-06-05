@@ -1,0 +1,573 @@
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #E5E5E5 !important;
+}
+
+
+.main-form{
+    display: flex;
+    /* margin: 5rem; */
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.form-1{
+    background: linear-gradient(0deg, rgba(21, 101, 216, 0.9),
+     rgba(21, 101, 216, 0.9)), url(images/savingbag.jpg);
+     width: 400px;
+     height: 600px;
+     background-size: cover;
+    background-position: center;
+     /* border-radius: 3%; */
+  /* top: 8rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+/* “ */
+
+/* "position: absolute;
+width: 28px;
+height: 117px;
+left: 82px;
+top: 330px;
+
+font-family: 'Gayathri';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 117px;
+display: flex;
+align-items: center;
+
+color: #00DAF7;" */
+
+
+
+.form-1 p{
+    /* margin-top: 2rem; */
+    /* text-align: center; */
+    /* margin-top: 12rem; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+    padding: 28px;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+}
+.union-container{
+    position: relative;
+}
+.Union{
+    /* position: absolute; */
+    /* margin-right: 20rem;
+    /* margin-top: -25rem; */
+    /* margin-bottom: 10rem; */
+    /* padding-bottom: 4rem;  */
+    margin-top: -12rem;
+    margin-left: -11rem;
+     width: 34px;
+     border-radius: 10px;
+     /* transform: matrix(1, 0, 0, -1, 0, -1); */
+/* height: 30px; */
+/* left: 82px;
+top: 94px; */
+}
+.Union-1{
+    /* position: absolute; */
+    position: relative;
+    top: -5.4rem;
+    left: -0.2rem;
+    font-family: 'Gilroy';
+    font-style: normal;
+    color: #FFFFFF;
+    width: 46px;
+}
+
+
+
+.imageComma{
+    margin-left: -10.6rem;
+    margin-bottom: -3rem
+}
+
+#vector{
+    width: 5%;
+  margin-left: 82%;
+  margin-top: -9%;
+    /* height: 33px; */
+    /* display: none; */
+}
+
+
+
+
+/* Section two begins here */
+.form-2{
+ background-color:  white;
+ width: 500px;
+ height: 600px;
+ box-shadow: 0px 2px 14px 1px rgba(0, 0, 0, 0.06);
+ border-top-right-radius: 10px;
+ border-bottom-right-radius: 10px;
+ /* display: none; */
+}
+
+
+ .oldUser{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #8692A6;
+    /* align-items: center; */
+    text-align: right;
+    /* margin: 10px; */
+    padding: 2rem;
+}
+#Sign-in{
+    color:  rgba(21, 101, 216, 0.9);
+    cursor: pointer;
+}
+.form-2 h5{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+color: #000000;
+margin-left: 4rem;
+padding-top: 3rem;
+height: 36px;
+}
+#joinus-txt{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+margin-left: 2.2rem;
+padding: 28px;
+/* word-wrap: break-word; */
+text-align: left;
+    /* color: #8692A6; */
+    /* display: none; */
+}
+
+/* individual account info */
+.indivi-info{
+    background: #FFFFFF;
+box-shadow: 0px 2px 14px 1px rgba(0, 0, 0, 0.06);
+border-radius: 6px;
+width: 340px;
+height: 70px;
+margin-left: 4rem;
+margin-top: -1rem;
+cursor: pointer;
+
+display: grid;
+grid-template-columns: 20% 60% 20%;
+}
+
+ 
+.indivi-info img{
+    padding: 4px;
+    width: 70%;
+    margin-top: 12px;
+    margin-left: 8px;
+  
+}
+
+.data{
+    position: relative;
+}
+#user-image{
+    /* position: absolute; */
+     width: 40%; 
+    margin-left: -2.6rem;
+    margin-top: 1rem;
+}
+
+
+#individual-acct{
+    /* font-family: 'Inter';
+    font-style: normal; */
+    font-weight: 700;
+    font-size: 16px;
+    
+    /* line-height: 19px; */
+     /* margin-top: 2rem; */
+     padding-top: 10px;
+   /* position: absolute; */
+   
+}
+
+#persnaacct{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+   margin-top: -4px;
+   color: #8692A6;
+   /* position: relative; */
+    /* text-align: left !important; */
+}
+
+
+.arrow-container{
+    margin-left: auto;
+  margin-right: auto;
+  display: none;
+  /* width: 300px; Adjust the width as needed */
+}
+.arrow-container .fa-arrow-right{
+    color:  rgba(21, 101, 216, 0.9);
+    display: flex;
+    justify-content: center; /* Horizontally center the child elements */
+    align-items: center; /* Vertically center the child elements */
+    /* height: 100vh;  */
+    /* margin-left: 2.3rem; */
+    margin-top: 1.6rem;
+   
+} 
+
+/* business account info begins here */
+.business-info{
+    background: #FFFFFF;
+box-shadow: 0px 2px 14px 1px rgba(0, 0, 0, 0.06);
+border-radius: 6px;
+width: 340px;
+height: 70px;
+margin-left: 4rem;
+margin-top: 1rem;
+cursor: pointer;
+
+display: grid;
+grid-template-columns: 20% 60% 20%;
+}
+.business-info img{
+    padding: 4px;
+    width: 70%;
+    margin-top: 12px;
+    margin-left: 8px;
+  
+}
+.arrow-container-B{
+    margin-left: auto;
+  margin-right: auto;
+  display: none;
+  /* width: 300px; Adjust the width as needed */
+}
+.arrow-container-B .fa-arrow-right{
+    color:  rgba(21, 101, 216, 0.9);
+    display: flex;
+    justify-content: center; /* Horizontally center the child elements */
+    align-items: center; /* Vertically center the child elements */
+    /* height: 100vh;  */
+    /* margin-left: 2.3rem; */
+    margin-top: 1.6rem;
+   
+} 
+
+/* CSS for form-3 begins here-------------- */
+ .form3-top-corner{
+    display: flex;
+    justify-content: space-between;
+   /* align-content: space-between; */
+   padding: 25px;
+   line-height: 9px;
+   margin-top: 0.3rem;
+ }
+ .form3-steps{
+    text-align: right;
+
+ }
+ .return-back-angle{
+    /* font-family: 'Inter';
+    font-style: normal; */
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #8692A6;
+    cursor: pointer;
+ }
+  #form3-step-one{
+    /* font-family: 'Inter';
+    font-style: normal; */
+    font-weight: 500;
+    font-size: 13px;
+    /* line-height: 17px; */
+    color: #BDBDBD;
+ }
+ #form3-persona-info{
+    
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 0px;
+ }
+ .form3-account-infor{
+    margin-top: 0.3rem;
+    margin-left: 4rem;
+ }
+ .form3-account-infor h4{
+    /* font-family: 'Inter';
+    font-style: normal; */
+    font-weight: 700;
+    font-size: 21px;
+    /* line-height: 36px; */
+    color: #000000;
+ }
+ .form3-account-infor p{
+    width: 310px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #8692A6;
+
+ }
+ .form-3-formFill{
+    margin-left: 2.7rem;
+ }
+ .form-3-formFill label{
+    /* padding-top: 10px; */
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #696F79;
+ }
+ .control-input{
+    background: #FFFFFF;
+    /* border: 1px solid #1565D8; */
+    border: 1px solid #8692A6;
+    height: 46px;
+    width: 310px !important;
+    margin-bottom: -10px;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+    border-radius: 6px;
+ }
+
+
+ .form-check-input{
+    /* margin-top: -4px !important; */
+    margin-left: 0.1px !important;
+    padding-right: 5px !important;
+ }
+ #terms{
+    color: #494949;
+    /* margin-top: -8rem !important; */
+    /* margin-left: 0.1rem !important; */
+    padding-left: 5px !important;
+ }
+ .form-3-formFill button{
+    margin-top: 15px;
+    width: 310px;
+ }
+ .form-3-formFill input[placeholder]{
+    /* color: #494949; */
+    /* color: #8692A6; */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 10px;
+ }
+ .form-3-formFill input:focus::placeholder {
+    color: #494949;
+}
+
+.form-3-formFill input:focus {
+    border: 1px solid #1565D8;
+}
+.check-in{
+    /* position: relative; */
+    margin-top: 15px;
+}
+
+.fa-eye-slash{
+  position: absolute;
+  /* width: 100% !important; */
+  margin-top: -1.3rem;
+   margin-left: 17rem;
+   color: #8692A6;
+   display: none;
+   cursor: pointer;
+}
+.fa-eye{
+    position: absolute;
+    /* width: 100% !important; */
+    margin-top: -1.3rem;
+     margin-left: 17rem;
+     cursor: pointer;
+     display: none;
+}
+/* for pasword dsiplays  */
+   .open-eye{
+      display: none;
+   }
+   .closed-eye{
+    display: block;
+   }
+
+.google-account{
+    background: #FFFFFF;
+    margin-left: 4.2rem;
+    width: 310px;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 1.9rem;
+    cursor: pointer;
+    text-align: center;
+    /* border: 1px solid #1565D8; */
+    /* border: 1px solid #8692A6;  */
+}
+.google-account img{
+    /* margin-left: 25px; */
+    margin-right: 20px;
+    width: 7%;
+}
+ 
+/* CSS for form-3(display three) begins here-------------- */
+.input-container{
+    position: relative;
+}
+
+.input-container input{
+       color: #494949
+}
+
+.input-container input[placeholder] {
+    padding-left: 120px; /* Adjust the padding to make space for the country logo */
+    /* color: #8692A6 ; */
+  }
+
+  .input-container img{
+    margin-top: -12%;
+    padding-left: 13px;
+  }
+  .input-container select{
+    position: absolute;
+    top: 40px;
+    /* left: 43px;
+    width: 76px; */
+    padding-left: 8px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    /* line-height: 17px; */
+    color: #8692A6;
+    cursor: pointer;
+  }
+  /* .input-container select:focus{
+    border: none !important;
+  } */
+
+#fom3-btn{
+    margin-top: 3rem;
+    padding: 8px;
+}
+.secure-info{
+    margin-top: 18px;
+    margin-left: 65px;
+}
+.secure-info p{
+font-weight: 400;
+font-size: 12px;
+margin-left: 17px;
+margin-top: -1.2rem;
+/* identical to box height */
+color: #8692A6;
+}
+.CountrySelect{
+    width: 310px !important;
+    height: 46px;
+    border: 1px solid #8692A6;   
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+    border-radius: 6px;
+    font-weight: 500;
+    position: relative;
+    appearance: none;
+    -webkit-appearance: none;
+    background: transparent;
+    /* color: #8692A6 !important;  */
+}
+.CountrySelectOption{
+  position: absolute;
+  top: 65.9%;
+  /* transform: translateY(-50%); */
+  left: 52.1%;
+  font-size: 14px;
+  font-weight: 500;
+  font-weight: 500;
+  color: #494949;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.CountrySelect:focus + .CountrySelectOption {
+    opacity: 0;
+  }
+
+
+  /* CSS FOR FORM 4 BEGINS HERE */
+  .fa-check-circle{
+  position: absolute;
+  /* width: 100% !important; */
+  margin-top: -2.8rem;
+   margin-left: 17rem;
+   color: #8692A6;
+   display: none;
+   cursor: pointer;
+  }
+
+
+  /* CSS FOR SIGN IN VALIDATION BEGINS HERE */
+
+  .open-eye-signIn{
+    display: none;
+ }
+ .closed-eye-signIn{
+  display: block;
+ }
+
+/* This classes are to be use by Javascript */
+.hover-effect{
+    background: #F5F9FF;
+    border: 1px solid #1565D8
+}
+
+/* all the form displays will be place here */
+.display-one{
+    display: block;
+   
+}
+.display-two{
+    display: none;
+}
+.display-three{
+    display: none;
+}
+.display-four{
+    display: none;
+}
+.sign-in-section{
+    display: none;
+}
