@@ -456,10 +456,10 @@ function validateAndFinalSignInSection() {
 
   if (isValid) {
     formDisplayOne.style.display = "block"; 
-    formDisplayFour.style.display = "none";
+    signInSection.style.display = "none";
     // formDisplayOne.style.display = "none";
   } else {
-    alert('Incorrect BVN Code');
+    alert('Incorrect details');
   }
   return false;
 }
