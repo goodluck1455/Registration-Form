@@ -573,3 +573,34 @@ color: #8692A6;
 .sign-in-section{
     display: none;
 }
+
+
+/* CSS MEDIA QUEIRES BEGINS HERE */
+@media screen and (max-width:768px){
+    .Union-1 {
+    top: -4.9rem;
+    left: -0.2rem
+}
+
+        .Union {
+            margin-top: -11rem;
+            margin-left: -8rem;}
+
+            .imageComma {
+                margin-left: -7.4rem}
+
+                .indivi-info {
+                    width: 320px;
+                    margin-left: 2rem;}
+
+                .business-info {
+                    width: 320px;
+                    margin-left: 2rem;}
+                    
+                    #joinus-txt {
+                        margin-left: 0.3rem;
+                    }
+                    .form-2 h5 {
+                        margin-left: 2rem;
+                    }
+}
