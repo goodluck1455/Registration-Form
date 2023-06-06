@@ -603,4 +603,15 @@ color: #8692A6;
                     .form-2 h5 {
                         margin-left: 2rem;
                     }
+                    .form-3-formFill {
+                        margin-left: 1rem;
+                    }
+                    .google-account {
+                        
+                        margin-left: 2.5rem;}
+
+                        .form3-account-infor {
+                            /* margin-top: 0.3rem; */
+                            margin-left: 2.5rem;
+                        }
 }
