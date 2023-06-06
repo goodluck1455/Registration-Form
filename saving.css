@@ -621,13 +621,13 @@ color: #8692A6;
         display: flow-root}
 
         .form-1 {
-            width: 380px;
+            width: 350px;
             height: 300px;
            border-radius: 0;
         }
             .form-2 {
                 border-radius: 0;
-                width: 380px;}
+                width: 350px;}
                 .Union {
                     margin-top: 4rem;
                     margin-left: -10rem;
@@ -642,9 +642,32 @@ color: #8692A6;
                         margin-top: -30%;}
 
                         .oldUser {font-size: 16px;}
-                        
+
                         .CountrySelectOption {
                             top: 106.5%;
                             left: 17%;}
+                            .indivi-info {
+                                width: 290px}
+                                .business-info {
+                                    width: 290px;}
+
+                                    .control-input {
+                                       
+                                        height: 47px;
+                                        width: 280px !important;}
+                                        .form-3-formFill button {
+                                            width: 280px;}
+
+
+                                            .fa-eye-slash, .fa-eye, .fa-check-circle  {
+                                                margin-left: 15rem;
+                                                }
+                                                .google-account {
+                                                    width: 280px}
+                                                    .form-select {
+                                                        height: 47px;
+                                                        width: 280px !important; 
+                                                    }
+                                        
                
 }
