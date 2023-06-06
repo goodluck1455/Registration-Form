@@ -615,3 +615,36 @@ color: #8692A6;
                             margin-left: 2.5rem;
                         }
 }
+
+@media screen and (max-width:375px){
+    .main-form {
+        display: flow-root}
+
+        .form-1 {
+            width: 380px;
+            height: 300px;
+           border-radius: 0;
+        }
+            .form-2 {
+                border-radius: 0;
+                width: 380px;}
+                .Union {
+                    margin-top: 4rem;
+                    margin-left: -10rem;
+                }
+                .Union-1 {
+                    top: 2.6rem;}
+                    .imageComma {
+                        margin-left: -10rem;
+                    }
+                    #vector {
+                        margin-left: 84%;
+                        margin-top: -30%;}
+
+                        .oldUser {font-size: 16px;}
+                        
+                        .CountrySelectOption {
+                            top: 106.5%;
+                            left: 17%;}
+               
+}
