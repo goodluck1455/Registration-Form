@@ -618,16 +618,18 @@ color: #8692A6;
 
 @media screen and (max-width:375px){
     .main-form {
-        display: flow-root}
+        display: flow-root;
+      
+    }
 
         .form-1 {
-            width: 350px;
-            height: 300px;
+            width: 348px;
+            height: 310px;
            border-radius: 0;
         }
             .form-2 {
                 border-radius: 0;
-                width: 350px;}
+                width: 348px;}
                 .Union {
                     margin-top: 4rem;
                     margin-left: -10rem;
@@ -668,6 +670,7 @@ color: #8692A6;
                                                         height: 47px;
                                                         width: 280px !important; 
                                                     }
+
                                         
                
 }
