@@ -575,7 +575,9 @@ color: #8692A6;
 }
 
 
-/* CSS MEDIA QUEIRES BEGINS HERE */
+/* ====================================
+      CSS MEDIA QUEIRES BEGINS HERE 
+======================================*/
 @media screen and (max-width:768px){
     .Union-1 {
     top: -4.9rem;
@@ -623,13 +625,13 @@ color: #8692A6;
     }
 
         .form-1 {
-            width: 348px;
+            width: 340px;
             height: 310px;
            border-radius: 0;
         }
             .form-2 {
                 border-radius: 0;
-                width: 348px;}
+                width: 340px;}
                 .Union {
                     margin-top: 4rem;
                     margin-left: -10rem;
@@ -646,12 +648,21 @@ color: #8692A6;
                         .oldUser {font-size: 16px;}
 
                         .CountrySelectOption {
-                            top: 106.5%;
+                            top: 134.2%;
                             left: 17%;}
                             .indivi-info {
-                                width: 290px}
+                                width: 260px}
                                 .business-info {
-                                    width: 290px;}
+                                    width: 260px;}
+
+                                    .indivi-info img, .business-info img {
+                                       
+                                       
+                                        margin-top: 20px;}
+                                        
+                                        #user-image {
+                                            margin-left: -2.1rem;
+                                            margin-top: 1.2rem;}
 
                                     .control-input {
                                        
