@@ -659,7 +659,7 @@ color: #8692A6;
                                        
                                        
                                         margin-top: 20px;}
-                                        
+
                                         #user-image {
                                             margin-left: -2.1rem;
                                             margin-top: 1.2rem;}
@@ -671,16 +671,24 @@ color: #8692A6;
                                         .form-3-formFill button {
                                             width: 280px;}
 
+                                            .form-3-formFill {
+                                                margin-left: 0.3rem;}
+
+                                                .form3-account-infor {
+                                                    margin-left: 1.7rem;}
 
                                             .fa-eye-slash, .fa-eye, .fa-check-circle  {
                                                 margin-left: 15rem;
                                                 }
                                                 .google-account {
+                                                    margin-left: 1.8rem;
                                                     width: 280px}
                                                     .form-select {
                                                         height: 47px;
                                                         width: 280px !important; 
                                                     }
+                                                    .input-container img {
+                                                        margin-top: -17%;}
 
                                         
                
